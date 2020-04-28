@@ -1,11 +1,11 @@
 let message;
-const ADMIN_PASSWORD = 'qwe';
+const ADMIN_PASSWORD = "qwe";
 
-message = prompt('Введите пароль!');
+message = prompt("Введите пароль!");
 if (message === null) {
-  alert('Отменено пользователем!');
+  alert("Отменено пользователем!");
 } else if (message === ADMIN_PASSWORD) {
-  alert('Добро пожаловать!');
+  alert("Добро пожаловать!");
 } else {
-  alert('Доступ запрещен, неверный пароль!');
+  alert("Доступ запрещен, неверный пароль!");
 }
